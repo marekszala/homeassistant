@@ -1,0 +1,5 @@
+light.yeelight_rgb_34ce00911061:
+  friendly_name: Gorne Swiatlo
+
+binary_sensor.motion_sensor_158d000276d3d5:
+  friendly_name: Czujnik Ruchu

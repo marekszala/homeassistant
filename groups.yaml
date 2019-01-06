@@ -1,0 +1,41 @@
+default_view:
+  view: true
+  icon: mdi:home
+  entities:
+    - sun.sun
+    - sensor.yr_symbol
+    - group.kitchen
+    - group.marekiaga
+    - group.bedroom2
+
+kitchen_view:
+  name: Kitchen
+  view: true
+  entities:
+    - group.kitchen
+
+bedroom1_view:
+  name: M&A
+  view: true
+  entities:
+    - group.marekiaga
+
+kitchen:
+  name: Kitchen
+  entities:
+    - media_player.kitchen
+    - binary_sensor.motion_sensor_158d000276d3d5
+    - light.Kitchen_Ceiling
+    - sensor.illumination_158d000276d3d5
+
+marekiaga:
+  name: M&A
+  entities:
+    - switch.wall_switch_158d00029b379a
+
+bedroom2:
+  name: Dzieci
+  view: true
+  entities:
+    - sensor.temperature_158d0001f534a2
+    - sensor.humidity_158d0001f534a2

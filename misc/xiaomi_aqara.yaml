@@ -1,0 +1,3 @@
+discovery_retry: 5
+gateways:
+  - key: 14AD9B5C04C64A20

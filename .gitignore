@@ -1,0 +1,6 @@
+**/*secrets.yaml
+.HA_VERSION
+.uuid
+.storage/**
+**/*.db
+**/*.log
