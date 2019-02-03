@@ -1,0 +1,51 @@
+light_on_normal_mode:
+  sequence:
+    - service: light.turn_on
+      data_template: 
+        entity_id: '{{ entity_id }}'
+        brightness: 255
+        kelvin: 2750
+
+light_on_evening_mode:
+  sequence:
+    - service: light.turn_on
+      data_template: 
+        entity_id: '{{ entity_id }}'
+        brightness: 150
+        kelvin: 2300
+
+light_on_night_mode:
+  sequence:
+    - service: light.turn_on
+      data_template:
+        entity_id: '{{ entity_id }}'
+        brightness: 15
+        kelvin: 2000
+
+light_on_green_mode:
+  sequence:
+    - service: light.turn_on
+      data_template:
+        entity_id: '{{ entity_id }}'
+        color_name: 'green'
+
+light_on_red_mode:
+  sequence:
+    - service: light.turn_on
+      data_template:
+        entity_id: '{{ entity_id }}'
+        color_name: 'red'
+
+
+light_on_adaptive_mode:
+  sequence:
+    - service_template: >
+        {% if (states.sun.sun.attributes.elevation | int < 0) and (now().hour | int >= 0) and (now().hour | int <= 5) %}
+          script.light_on_night_mode
+        {% elif (states.sun.sun.attributes.elevation | int < 0) and (now().hour | int > 22) %}
+          script.light_on_evening_mode
+        {% else %}
+          script.light_on_normal_mode
+        {% endif %}
+      data_template:
+        entity_id: '{{ entity_id }}'

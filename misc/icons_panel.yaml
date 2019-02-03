@@ -1,0 +1,9 @@
+nodered_flows:
+    title: 'Node-Red Flows'
+    url: 'http://192.168.1.75:1880'
+    icon: mdi:nodejs
+
+nodered_dashboard:
+    title: 'Node-Red Dashboard'
+    url: 'http://192.168.1.75:1880/ui'
+    icon: mdi:nodejs

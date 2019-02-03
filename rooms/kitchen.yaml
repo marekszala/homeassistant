@@ -1,0 +1,9 @@
+
+name: Kitchen
+entities:
+  - media_player.kitchen
+  - binary_sensor.motion_sensor_158d000276d3d5
+  - light.Kitchen_Ceiling
+  - sensor.illumination_158d000276d3d5
+  - binary_sensor.motion_sensor_158d0002f8d19c
+  - switch.sonoff_kitchen_1

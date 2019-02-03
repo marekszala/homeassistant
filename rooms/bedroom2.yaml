@@ -1,0 +1,4 @@
+name: Dzieci
+entities:
+  - sensor.temperature_158d0001f534a2
+  - sensor.humidity_158d0001f534a2
