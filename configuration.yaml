@@ -64,7 +64,11 @@ tts:
 
 # Cloud
 cloud:
-
+asuswrt:
+  host: 192.168.1.1
+  username: admin
+  password: !secret router_password
+  
 mqtt:
   broker: 192.168.1.75
   port: 1994
@@ -78,5 +82,6 @@ script: !include scripts.yaml
 switch: !include misc/switch.yaml
 light: !include misc/light.yaml
 xiaomi_aqara: !include misc/xiaomi_aqara.yaml
+device_tracker: !include_dir_merge_list trackers/
         
   

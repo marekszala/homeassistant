@@ -3,7 +3,8 @@ default_view:
   icon: mdi:home
   entities:
     - sun.sun
-    - sensor.yr_symbol
+    - device_tracker.marek_iphone
+    - device_tracker.agnieszka_iphone
     - group.kitchen
     - group.marekiaga
     - group.bedroom2
@@ -28,5 +29,4 @@ bedroom2_view:
 
 kitchen: !include rooms/kitchen.yaml
 marekiaga: !include rooms/marekiaga.yaml
-bedroom2: !include rooms/bedroom2.yaml
-  
+bedroom2: !include rooms/bedroom2.yaml  

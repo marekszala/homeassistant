@@ -1,0 +1,107 @@
+
+marek_iphone:
+  hide_if_away: false
+  icon:
+  mac: D8:8F:76:56:AD:ED
+  name: Marek
+  gravatar: marek.szala@gmail.com
+  picture:
+  track: true
+
+agnieszka_iphone:
+  hide_if_away: false
+  icon:
+  mac: 18:81:0E:12:84:7F
+  name: Agnieszka
+  picture:
+  track: true
+
+
+yeelink_light_color1_miio57869332:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:91:10:61
+  name: yeelink-light-color1 miio57869332
+  picture:
+  track: true
+
+rockrobo:
+  hide_if_away: false
+  icon:
+  mac: 7C:49:EB:9F:EA:44
+  name: rockrobo
+  picture:
+  track: true
+
+lumi_gateway_v3_miio78472495:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:B2:90:D5
+  name: lumi-gateway-v3 miio78472495
+  picture:
+  track: true
+
+cy_c0d8e_015:
+  hide_if_away: false
+  icon:
+  mac: F8:63:3F:F4:13:F7
+  name: CY-C0D8E-015
+  picture:
+  track: true
+
+6c_41_6a_c8_f4_10:
+  hide_if_away: false
+  icon:
+  mac: 6C:41:6A:C8:F4:10
+  name: 6c 41 6a c8 f4 10
+  picture:
+  track: true
+
+apple_tv:
+  hide_if_away: false
+  icon:
+  mac: 08:66:98:98:2B:1F
+  name: Apple-TV
+  picture:
+  track: true
+
+raspberrypi:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:2C:A2:22
+  name: raspberrypi
+  picture:
+  track: true
+
+2c_fd_a1_3e_4a_7c:
+  hide_if_away: false
+  icon:
+  mac: 2C:FD:A1:3E:4A:7C
+  name: 2c fd a1 3e 4a 7c
+  picture:
+  track: true
+
+mareks_ipad:
+  hide_if_away: false
+  icon:
+  mac: A8:88:08:E2:A0:3E
+  name: Mareks-iPad
+  picture:
+  track: true
+
+kitchen_light:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:D3:EA:57
+  name: kitchen light
+  picture:
+  track: true
+
+78_28_ca_29_da_d0:
+  hide_if_away: false
+  icon:
+  mac: 78:28:CA:29:DA:D0
+  name: 78 28 ca 29 da d0
+  picture:
+  track: true
+

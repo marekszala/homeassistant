@@ -40,7 +40,7 @@ light_on_red_mode:
 light_on_adaptive_mode:
   sequence:
     - service_template: >
-        {% if (states.sun.sun.attributes.elevation | int < 0) and (now().hour | int >= 0) and (now().hour | int <= 5) %}
+        {% if (states.sun.sun.attributes.elevation | int < 0) and (now().hour | int >= 0) and (now().hour | int <= 4) %}
           script.light_on_night_mode
         {% elif (states.sun.sun.attributes.elevation | int < 0) and (now().hour | int > 22) %}
           script.light_on_evening_mode
