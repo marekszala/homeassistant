@@ -5,6 +5,7 @@ default_view:
     - sun.sun
     - device_tracker.marek_iphone
     - device_tracker.agnieszka_iphone
+    - device_tracker.mszalas_iphone_bt
     - group.kitchen
     - group.marekiaga
     - group.bedroom2

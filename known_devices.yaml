@@ -105,3 +105,147 @@ kitchen_light:
   picture:
   track: true
 
+mszalas_iphone_bt:
+  hide_if_away: false
+  icon:
+  mac: BT_D8:8F:76:56:AD:EE
+  name: Marek BT
+  gravatar: marek.szala@gmail.com
+  picture:
+  track: true
+
+tdd:
+  hide_if_away: false
+  icon:
+  mac: BT_40:8B:F6:A4:76:9F
+  name: TDD
+  picture:
+  track: true
+
+lenas_macbook_pro:
+  hide_if_away: false
+  icon:
+  mac: BT_68:A8:6D:56:ED:F3
+  name: Lena’s MacBook Pro
+  picture:
+  track: true
+
+dtvbluetooth:
+  hide_if_away: false
+  icon:
+  mac: BT_48:44:F7:C9:5E:BF
+  name: DTVBluetooth
+  picture:
+  track: true
+
+agunis_pc:
+  hide_if_away: false
+  icon:
+  mac: 84:A6:C8:AA:D4:D5
+  name: agunis-pc
+  picture:
+  track: true
+
+piotrs_iphone:
+  hide_if_away: false
+  icon:
+  mac: D0:C5:F3:7A:0C:C9
+  name: Piotrs-iPhone
+  picture:
+  track: true
+
+noos_l03331:
+  hide_if_away: false
+  icon:
+  mac: 34:F3:9A:5F:27:7E
+  name: NOOS-L03331
+  picture:
+  track: true
+
+kendoka_rev_1_0:
+  hide_if_away: false
+  icon:
+  mac: 78:E4:00:B7:46:38
+  name: kendoka-Rev-1-0
+  picture:
+  track: true
+
+cy_c0d6e_067:
+  hide_if_away: false
+  icon:
+  mac: E4:A7:A0:B7:E4:C7
+  name: CY-C0D6E-067
+  picture:
+  track: true
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: D4:A3:3D:A2:9A:E1
+  name: iPhone
+  picture:
+  track: true
+
+mszalasiphone2:
+  hide_if_away: false
+  icon:
+  mac: 54:72:4F:11:DD:30
+  name: mszalasiPhone2
+  picture:
+  track: true
+
+b0_fc_0d_7b_8d_e2:
+  hide_if_away: false
+  icon:
+  mac: B0:FC:0D:7B:8D:E2
+  name: b0 fc 0d 7b 8d e2
+  picture:
+  track: true
+
+piotrs_iphone_2:
+  hide_if_away: false
+  icon:
+  mac: E0:B5:2D:E8:77:0F
+  name: Piotrs-iPhone-2
+  picture:
+  track: true
+
+a0_e0_af_e9_f6_00:
+  hide_if_away: false
+  icon:
+  mac: A0:E0:AF:E9:F6:00
+  name: a0 e0 af e9 f6 00
+  picture:
+  track: true
+
+mareks_ipad_2:
+  hide_if_away: false
+  icon:
+  mac: 08:E6:89:E0:25:9B
+  name: Mareks-iPad
+  picture:
+  track: true
+
+youre_awesome:
+  hide_if_away: false
+  icon:
+  mac: F8:E9:4E:AB:55:EB
+  name: Youre-Awesome
+  picture:
+  track: true
+
+desktop_r1fgt01:
+  hide_if_away: false
+  icon:
+  mac: E4:B3:18:7B:49:40
+  name: DESKTOP-R1FGT01
+  picture:
+  track: true
+
+d0_6e_de_94_6d_86:
+  hide_if_away: false
+  icon:
+  mac: D0:6E:DE:94:6D:86
+  name: d0 6e de 94 6d 86
+  picture:
+  track: true
